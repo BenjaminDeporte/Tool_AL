@@ -1,0 +1,1463 @@
+{
+  "cfe": [
+    {
+      "cpqID": "5356f09c-ee4b-4ef9-bfeb-abff4b53b4d6",
+      "cfeExternalId": "T2-SML",
+      "name": "Small Configuration",
+      "contractCaseId": "22.NO.303971.CC",
+      "quoteId": "22.NO.303971.CC.CQ.01",
+      "extQuoteRefPOref": "2000002905",
+      "orderIntakePolicy": "O2E Order Intake",
+      "cfeType": "TYPE 2",
+      "cfeInvoiceable": true,
+      "salesCurrency": "EUR",
+      "incoterm": "DDP",
+      "incotermNamedPlace": null,
+      "taxClassification": null,
+      "invoice": {
+        "type": "Event-based",
+        "billingPlan": [
+          {
+            "billingMilestone": "BM#1-HW",
+            "billingMilestoneType": "Delivery",
+            "billingMilestoneValue": "100%"
+          }
+        ]
+      },
+      "payment": {
+        "termMetric": "D",
+        "dueFrom": "Date of Invoice",
+        "term": "60"
+      },
+      "pricePeriod": {
+        "name": "Phase 1",
+        "startDate": "2023-07-01",
+        "endDate": "2024-06-30"
+      },
+      "CLP": "35896.08",
+      "CP": "16153.24",
+      "qty": "16",
+      "pricingMetric": "Unit",
+      "pricingFactor": "1",
+      "pricingConditionType": "Per unit",
+      "complexPricing": false,
+      "orderableConfig": true,
+      "orderPrepStatus": "Single DQ",
+      "DQcounter": "1",
+      "DQtimeStamp": "2024-01-09T09:34:51.188208",
+      "wbsL0": {
+        "aa-Id": "5558",
+        "contractStartDate": "2022-07-01",
+        "soldToParty": "1000054562",
+        "soldToPartyName": "ICE COMMUNICATION NORGE AS",
+        "soldToPartyCountry": "Norway",
+        "RBCBusinessController": "stefan.hemmerle",
+        "RBCBusinessControllerAddress": "stefan.hemmerle@nokia.com"
+      },
+      "wbsL1": {
+        "Opportunity ID": "22.NO.303971",
+        "salesMode": "CSM",
+        "leadBG": "MN",
+        "customerContractNumber": "00045465.0",
+        "contractDescription": "ICE COMMUNICATION NORGE AS-Frame / Master-Supply Agreement",
+        "nokiaLegalEntity": {
+          "primaryName": "NOKIA SOLUTIONS AND NETWORKS OY",
+          "primary": "FI85"
+        },
+        "startDate": null,
+        "endDate": null,
+        "subContractCaseId": "22.NO.303971.CC.01",
+        "ReportedCustomerID": "1000054562",
+        "EndCustomerInformation": "ICE COMMUNICATION NORGE AS",
+        "EndCustomerId": "1000054562"
+      },
+      "cfeT1": [
+        {
+          "cpqID": "06677727-b40a-46be-b3a2-f147fef81096",
+          "cfeExternalId": "475266B",
+          "name": "ABIO AirScale Capacity",
+          "cfeType": "TYPE 1",
+		  "instanceId": "475266B.02",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "A",
+		  "pricePeriod": {
+			"name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+		  },
+          "CLP": "7736.23",
+          "CP": "3481.30",
+          "qty": "1",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+		  "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "475266B-PC00006831",
+              "profitCenter": "PC00006831",
+              "eqCLP": "7736.23",
+              "eqCP": "3481.30",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "3481.30",
+                "ssp%": "0.002657657767354485"
+              },
+              "si": [
+                {
+                  "code": "475266B",
+                  "description": "ABIO AirScale Capacity",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "7736.23",
+				  "eqCP": "3481.30",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-0022289",
+                  "assetID": "",
+                  "assetFileURL": "",
+                  "whatRelatedInformation": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cpqID": "29c70b43-4165-423a-8807-47796620fdff",
+          "cfeExternalId": "473764A",
+          "name": "ASIB AirScale Common",
+          "cfeType": "TYPE 1",
+		  "instanceId": "473764A.02",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "A",
+          "pricePeriod": {
+			"name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+		  },
+          "CLP": "1742.23",
+          "CP": "784.0",
+          "qty": "1",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+          "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "473764A-PC00006831",
+              "profitCenter": "PC00006831",
+              "eqCLP": "1742.23",
+              "eqCP": "784.0",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "784.0",
+                "ssp%": "5.985113907138165E-4"
+              },
+              "si": [
+                {
+                  "code": "473764A",
+                  "description": "ASIB AirScale Common",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "1742.23",
+                  "eqCP": "784.0",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-0022289",
+                  "assetID": "",
+                  "assetFileURL": "",
+                  "whatRelatedInformation": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cpqID": "435fb59b-9aab-477d-a32a-fe5e7c369ff7",
+          "cfeExternalId": "473098A",
+          "name": "AMIA AirScale Subrack",
+          "cfeType": "TYPE 1",
+		  "instanceId": "473098A.02",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "A",
+          "pricePeriod": {
+			"name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+		  },
+          "CLP": "653.34",
+          "CP": "294.0",
+          "qty": "1",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+          "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "473098A-PC00006831",
+              "profitCenter": "PC00006831",
+              "eqCLP": "653.34",
+              "eqCP": "294.0",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "294.0",
+                "ssp%": "2.2444177151768115E-4"
+              },
+              "si": [
+                {
+                  "code": "473098A",
+                  "description": "AMIA AirScale Subrack",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "653.34",
+                  "eqCP": "294.0",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-0022289",
+                  "assetID": "",
+                  "assetFileURL": "",
+                  "whatRelatedInformation": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cpqID": "522e48d2-0dd9-4270-b9c8-b5ca7913b3bb",
+          "cfeExternalId": "SR000035.T",
+          "name": "ABIO Baseband Capacity Activation LTU",
+          "cfeType": "TYPE 1",
+		  "instanceId": "SR000035.T.02",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "C",
+          "pricePeriod": {
+			"name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+		  },
+          "CLP": "362.97",
+          "CP": "163.34",
+          "qty": "2",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+		  "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "SR000035.T-PC00006834",
+              "profitCenter": "PC00006834",
+              "eqCLP": "362.97",
+              "eqCP": "163.34",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "163.34",
+                "ssp%": "1.2468732837409138E-4"
+              },
+              "si": [
+                {
+                  "code": "SR000035.T",
+                  "description": "ABIO Baseband Capacity Activation LTU",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "362.97",
+                  "eqCP": "163.34",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-0022491",
+                  "assetID": "",
+                  "assetFileURL": "",
+                  "whatRelatedInformation": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cpqID": "b3afdf1d-00c0-42bf-aaab-e6370ef270b7",
+          "cfeExternalId": "475000A",
+          "name": "AHPMDB AirScale RRH 2T4R B8/20/28 240W",
+          "cfeType": "TYPE 1",
+		  "instanceId": "475000A.02",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "A",
+          "pricePeriod": {
+			"name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+		  },
+          "CLP": "5842.03",
+          "CP": "2628.91",
+          "qty": "3",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+		  "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "475000A-PC00000349",
+              "profitCenter": "PC00000349",
+              "eqCLP": "5842.03",
+              "eqCP": "2628.91",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "2628.91",
+                "ssp%": "0.0020069293114304324"
+              },
+              "si": [
+                {
+                  "code": "475000A",
+                  "description": "AHPMDB AirScale RRH 2T4R B8/20/28 240W",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "5842.03",
+                  "eqCP": "2628.91",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-0022289",
+                  "assetID": "",
+                  "assetFileURL": "",
+                  "whatRelatedInformation": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cpqID": "6e2465ba-7171-4136-a732-ec2abfe6c289",
+          "cfeExternalId": "SR001015.T",
+          "name": "SBTS Incremental 20W Power LTU",
+          "cfeType": "TYPE 1",
+		  "instanceId": "SR001015.T.02",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "C",
+          "pricePeriod": {
+			"name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+		  },
+          "CLP": "93.6",
+          "CP": "42.12",
+          "qty": "18",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+		  "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "SR001015.T-PC00006835",
+              "profitCenter": "PC00006835",
+              "eqCLP": "93.6",
+              "eqCP": "42.12",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "42.12",
+                "ssp%": "3.215471910314534E-5"
+              },
+              "si": [
+                {
+                  "code": "SR001015.T",
+                  "description": "SBTS Incremental 20W Power LTU",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "93.6",
+                  "eqCP": "42.12",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-0022289",
+                  "assetID": "",
+                  "assetFileURL": "",
+                  "whatRelatedInformation": ""
+                }
+              ]
+            }
+          ]
+        },     
+        {
+          "cpqID": "54623df2-a16d-4e63-9bca-670dee544a5d",
+          "cfeExternalId": "475336A",
+          "name": "AOME 10G SFP+ 850nm 300m MM I-temp",
+          "cfeType": "TYPE 1",
+		  "instanceId": "475336A.02",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "A",
+          "pricePeriod": {
+            "name": "Phase 1",
+            "startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+          },
+          "CLP": "40.39",
+          "CP": "18.17",
+          "qty": "6",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+		  "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "475336A-PC00006832",
+              "profitCenter": "PC00006832",
+              "eqCLP": "40.39",
+              "eqCP": "18.17",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "18.17",
+                "ssp%": "1.3871112205701588E-5"
+              },
+              "si": [
+                {
+                  "code": "475336A",
+                  "description": "AOME 10G SFP+ 850nm 300m MM I-temp",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "40.39",
+                  "eqCP": "18.17",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-0022289",
+                  "assetID": "",
+                  "assetFileURL": "",
+                  "whatRelatedInformation": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cpqID": "91deed51-1737-4978-8004-434288b6aa82",
+          "cfeExternalId": "471880A",
+          "name": "FOSC Optical SFP 1000Base-LX 1310nm SM",
+          "cfeType": "TYPE 1",
+		  "instanceId": "471880A.02",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "A",
+          "pricePeriod": {
+			"name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+		  },
+          "CLP": "17.42",
+          "CP": "7.84",
+          "qty": "1",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+		  "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "471880A-PC00006832",
+              "profitCenter": "PC00006832",
+              "eqCLP": "17.42",
+              "eqCP": "7.84",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "7.84",
+                "ssp%": "5.985113907138164E-6"
+              },
+              "si": [
+                {
+                  "code": "471880A",
+                  "description": "FOSC Optical SFP 1000Base-LX 1310nm SM",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "17.42",
+                  "eqCP": "7.84",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-0022289",
+                  "assetID": "",
+                  "assetFileURL": "",
+                  "whatRelatedInformation": ""
+                }
+              ]
+            }
+          ]
+        },	
+        {
+          "cpqID": "27aa1433-8a80-478f-91d3-eb9b6f47e736",
+          "cfeExternalId": "476359A",
+          "name": "ASAL EAC cable 19PIN - peeled end 10m [for 2.5-10m]",
+          "cfeType": "TYPE 1",
+		  "instanceId": "476359A.02",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "A",
+          "pricePeriod": {
+			"name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+		  },
+          "CLP": "58.58",
+          "CP": "26.46",
+          "qty": "1",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+		  "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "476359A-PC00002207",
+              "profitCenter": "PC00002207",
+              "eqCLP": "58.58",
+              "eqCP": "26.46",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "26.46",
+                "ssp%": "8.718112349428296E-6"
+              },
+              "si": [
+                {
+                  "code": "476359A",
+                  "description": "ASAL EAC cable 19PIN - peeled end 10m [for 2.5-10m]",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "58.8",
+                  "eqCP": "26.46",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-0022289",
+                  "assetID": "",
+                  "assetFileURL": "",
+                  "whatRelatedInformation": ""
+                }
+              ]
+            }
+          ]
+        },
+		{
+          "cpqID": "f4270b4a-0f92-49f1-9fad-857ad97b1fd1",
+          "cfeExternalId": "474583A",
+          "name": "AMRC AirScale one clip rail 600mm",
+          "cfeType": "TYPE 1",
+		  "instanceId": "474583A.02",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "A",
+          "pricePeriod": {
+			"name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+		  },
+          "CLP": "108.89",
+          "CP": "49.0",
+          "qty": "1",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+		  "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "474583A-PC00006833",
+              "profitCenter": "PC00006833",
+              "eqCLP": "108.89",
+              "eqCP": "49.0",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "49.0",
+                "ssp%": "3.740696191961353E-5"
+              },
+              "si": [
+                {
+                  "code": "474583A",
+                  "description": "AMRC AirScale one clip rail 600mm",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "108.89",
+                  "eqCP": "49.0",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-0022289",
+                  "assetID": "",
+                  "assetFileURL": "",
+                  "whatRelatedInformation": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cpqID": "b2662020-6e2c-4be5-bb41-258a3365cebb",
+          "cfeExternalId": "LTE_CAP_new",
+          "name": "LTE capacity SW package; per LTE cell",
+          "cfeType": "TYPE 1",
+		  "instanceId": "LTE_CAP_new.02",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "C",
+          "pricePeriod": {
+			"name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+		  },
+          "CLP": "1450.00",
+          "CP": "652.5",
+          "qty": "3",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+		  "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "LTE_CAP_new-PC00006849",
+              "profitCenter": "PC00006849",
+              "eqCLP": "143.992055610725",
+              "eqCP": "64.7964250248262",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "64.7964250248262",
+                "ssp%": "4.4189688715608546E-4"
+              },
+              "si": [
+                {
+                  "code": "RLFZ9031.T",
+                  "description": "FZ Mini Macro 5W to 10W Power Lic LTU",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "47.9973518702416",
+                  "eqCP": "21.5988083416087",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-952_001",
+                  "assetID": null,
+                  "assetFileURL": null,
+                  "whatRelatedInformation": null
+                },
+                {
+                  "code": "RLFZ9032.T",
+                  "description": "FZ Mini Macro 10W to 20W Power Lic LTU",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "95.9947037404833",
+                  "eqCP": "43.1976166832175",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-952_001",
+                  "assetID": null,
+                  "assetFileURL": null,
+                  "whatRelatedInformation": null
+                }
+              ]
+            },
+            {
+              "id": "LTE_CAP_new-PC00006843",
+              "profitCenter": "PC00006843",
+              "eqCLP": "1286.32903012248",
+              "eqCP": "578.848063555114",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "578.848063555114",
+                "ssp%": "4.9466069457770777E-5"
+              },
+              "si": [
+                  {
+                  "code": "RL000366.T",
+                  "description": "AirScale System Module Activation LTU",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "383.978814961933",
+                  "eqCP": "172.79046673287",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-952_001",
+                  "assetID": null,
+                  "assetFileURL": null,
+                  "whatRelatedInformation": null
+                },
+				{
+				  "code": "RL000028.T",
+				  "description": "Cell Bandwidth - 20 MHz LTU",
+				  "qty": "1.0",
+				  "kittingAttribute": "",
+				  "eqCLP": "345.58093346574",
+				  "eqCP": "155.511420059583",
+				  "pciRelatedInformation": "022206A",
+				  "confRelatedInformation": "CPQ-952_001",
+				  "assetID": null,
+				  "assetFileURL": null,
+				  "whatRelatedInformation": null
+				},
+				{
+				  "code": "RL000047.T",
+				  "description": "Cell Bandwidth - 15 MHz LTU",
+				  "qty": "1.0",
+				  "kittingAttribute": "",
+				  "eqCLP": "268.785170473353",
+				  "eqCP": "120.953326713009",
+				  "pciRelatedInformation": "022267A",
+				  "confRelatedInformation": "CPQ-952_001",
+				  "assetID": null,
+				  "assetFileURL": null,
+				  "whatRelatedInformation": null
+				},
+				{
+				  "code": "RL000027.T",
+				  "description": "Cell Bandwidth - 10 MHz LTU",
+				  "qty": "1.0",
+				  "kittingAttribute": "",
+				  "eqCLP": "167.990731545846",
+				  "eqCP": "75.5958291956306",
+				  "pciRelatedInformation": "022206A",
+				  "confRelatedInformation": "CPQ-952_001",
+				  "assetID": null,
+				  "assetFileURL": null,
+				  "whatRelatedInformation": null
+				},
+				{
+				  "code": "RL000026.T",
+				  "description": "Cell Bandwidth - 5 MHz LTU",
+				  "qty": "1.0",
+				  "kittingAttribute": "",
+				  "eqCLP": "119.993379675604",
+				  "eqCP": "53.99702085402184",
+				  "pciRelatedInformation": "022206A",
+				  "confRelatedInformation": "CPQ-952_001",
+				  "assetID": null,
+				  "assetFileURL": null,
+				  "whatRelatedInformation": null
+				}
+              ]
+            },
+            {
+              "id": "LTE_CAP_new-PC00006847",
+              "profitCenter": "PC00006847",
+              "eqCLP": "19.6789142667991",
+              "eqCP": "8.855511420059589",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "8.855511420059589",
+                "ssp%": "6.760362825895342E-6"
+              },
+              "si": [
+                {
+                  "code": "SR000834.1.T",
+                  "description": "SBTS Daily UP Data Volume (GB) LTU",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "9.69546507778881",
+                  "eqCP": "4.362959285004968",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-952_001",
+                  "assetID": null,
+                  "assetFileURL": null,
+                  "whatRelatedInformation": null
+                },
+                {
+                  "code": "SR001004.T",
+                  "description": "SBTS Data User LTU",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "9.98344918901026",
+                  "eqCP": "4.492552135054621",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-952_001",
+                  "assetID": null,
+                  "assetFileURL": null,
+                  "whatRelatedInformation": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cpqID": "ce1bda34-8a7d-49ad-acd5-913333a3f31d",
+          "cfeExternalId": "5G_Cap_New",
+          "name": "5G capacity SW package; per 5G SCC",
+          "cfeType": "TYPE 1",
+		  "instanceId": "5G_Cap_New.02",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "C",
+          "pricePeriod": {
+            "name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+          },
+          "CLP": "175.00",
+          "CP": "78.75",
+          "qty": "6",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+		  "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "5G_Cap_New-PC00006824",
+              "profitCenter": "PC00006824",
+              "eqCLP": "53.2608695652174",
+              "eqCP": "23.967391304347828",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "23.967391304347828",
+                "ssp%": "1.8296883547637054E-5"
+              },
+              "si": [
+                {
+                  "code": "5G000023.T",
+                  "description": "3dBm output power for mmW CLTU",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "27.8985507246377",
+                  "eqCP": "12.554347826086959",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-952_002",
+                  "assetID": null,
+                  "assetFileURL": null,
+                  "whatRelatedInformation": null
+                },
+                {
+                  "code": "5G000022.T",
+                  "description": "2 layer activation for mmW CLTU",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "25.3623188405797",
+                  "eqCP": "11.41304347826087",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-952_002",
+                  "assetID": null,
+                  "assetFileURL": null,
+                  "whatRelatedInformation": null
+                }
+              ]
+            },
+            {
+              "id": "5G_Cap_New-PC00006821",
+              "profitCenter": "PC00006821",
+              "eqCLP": "121.739130434783",
+              "eqCP": "54.78260869565217",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "54.78260869565217",
+                "ssp%": "4.1821448108884686E-5"
+              },
+              "si": [
+                {
+                  "code": "5G000006.T",
+                  "description": "4 DL layer activation for mMIMO CLTU",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "25.3623188405797",
+                  "eqCP": "11.413043478260871",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-952_002",
+                  "assetID": null,
+                  "assetFileURL": null,
+                  "whatRelatedInformation": null
+                },
+                {
+                  "code": "5G000005.T",
+                  "description": "20MHz bandwidth for mMIMO CLTU",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "96.3768115942029",
+                  "eqCP": "43.3695652173913",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-952_002",
+                  "assetID": null,
+                  "assetFileURL": null,
+                  "whatRelatedInformation": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pce": null
+    },
+	{
+      "cpqID": "bfe67fdd-a55b-401c-bfe9-9d02e08406e0",
+      "cfeExternalId": "SWP-ASIA",
+      "name": "Swap ASIA",
+      "contractCaseId": "22.NO.303971.CC",
+      "quoteId": "22.NO.303971.CC.CQ.01",
+      "extQuoteRefPOref": "2000002905",
+      "orderIntakePolicy": "O2E Order Intake",
+      "cfeType": "TYPE 2",
+      "cfeInvoiceable": true,
+      "salesCurrency": "EUR",
+      "incoterm": "DDP",
+      "incotermNamedPlace": null,
+      "taxClassification": null,
+      "invoice": {
+        "type": "Event-based",
+        "billingPlan": [
+          {
+            "billingMilestone": "BM#1-HW",
+            "billingMilestoneType": "Delivery",
+            "billingMilestoneValue": "100%"
+          }
+        ]
+      },
+      "payment": {
+        "termMetric": "D",
+        "dueFrom": "Date of Invoice",
+        "term": "60"
+      },
+      "pricePeriod": {
+        "name": "Phase 1",
+        "startDate": "2023-07-01",
+        "endDate": "2024-06-30"
+      },
+      "CLP": "1742.0",
+      "CP": "0.0",
+      "qty": "5",
+      "pricingMetric": "Unit",
+      "pricingFactor": "1",
+      "pricingConditionType": "Per unit",
+      "complexPricing": false,
+      "orderableConfig": true,
+      "orderPrepStatus": "Single DQ",
+      "DQcounter": "1",
+      "DQtimeStamp": "2024-01-09T09:34:51.188208",
+      "wbsL0": {
+        "aa-Id": "5558",
+        "contractStartDate": "2022-07-01",
+        "soldToParty": "1000054562",
+        "soldToPartyName": "ICE COMMUNICATION NORGE AS",
+        "soldToPartyCountry": "Norway",
+        "RBCBusinessController": "stefan.hemmerle",
+        "RBCBusinessControllerAddress": "stefan.hemmerle@nokia.com"
+      },
+      "wbsL1": {
+        "Opportunity ID": "22.NO.303971",
+        "salesMode": "CSM",
+        "leadBG": "MN",
+        "customerContractNumber": "00045465.0",
+        "contractDescription": "ICE COMMUNICATION NORGE AS-Frame / Master-Supply Agreement",
+        "nokiaLegalEntity": {
+          "primaryName": "NOKIA SOLUTIONS AND NETWORKS OY",
+          "primary": "FI85"
+        },
+        "startDate": "2022-07-01",
+        "endDate": "2025-06-30",
+        "subContractCaseId": "22.NO.303971.CC.01",
+        "ReportedCustomerID": "1000054562",
+        "EndCustomerInformation": "ICE COMMUNICATION NORGE AS",
+        "EndCustomerId": "1000054562"
+      },
+      "cfeT1": [
+        {
+          "cpqID": "29c70b43-4165-423a-8807-47796620fdff",
+          "cfeExternalId": "473764A",
+          "name": "ASIB AirScale Common",
+          "cfeType": "TYPE 1",
+		  "instanceId": "473764A.03",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "A",
+          "pricePeriod": {
+			"name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+		  },
+          "CLP": "1742.0",
+          "CP": "0.0",
+          "qty": "1",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+		  "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "473764A-PC00006831",
+              "profitCenter": "PC00006831",
+              "eqCLP": "1742.0",
+              "eqCP": "0.0",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "0.0",
+                "ssp%": "0"
+              },
+              "si": [
+                {
+                  "code": "473764A",
+                  "description": "ASIB AirScale Common",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "1742.0",
+                  "eqCP": "0.0",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-swap-asia",
+                  "assetID": "",
+                  "assetFileURL": "",
+                  "whatRelatedInformation": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pce": null
+    },
+    {
+      "cpqID": "86b13b90-50ce-4bd1-b5fb-bdccc4a3ee15",
+      "cfeExternalId": "SWP-FSMF",
+      "name": "Swap FSMF",
+      "contractCaseId": "22.NO.303971.CC",
+      "quoteId": "22.NO.303971.CC.CQ.01",
+      "extQuoteRefPOref": "2000002905",
+      "orderIntakePolicy": "O2E Order Intake",
+      "cfeType": "TYPE 2",
+      "cfeInvoiceable": true,
+      "salesCurrency": "EUR",
+      "incoterm": "DDP",
+      "incotermNamedPlace": null,
+      "taxClassification": null,
+      "invoice": {
+        "type": "Event-based",
+        "billingPlan": [
+          {
+            "billingMilestone": "BM#1-HW",
+            "billingMilestoneType": "Delivery",
+            "billingMilestoneValue": "100%"
+          }
+        ]
+      },
+      "payment": {
+        "termMetric": "D",
+        "dueFrom": "Date of Invoice",
+        "term": "60"
+      },
+      "pricePeriod": {
+        "name": "Phase 1",
+        "startDate": "2023-07-01",
+        "endDate": "2024-06-30"
+      },
+      "CLP": "10858.0",
+      "CP": "0.0",
+      "qty": "4",
+      "pricingMetric": "Unit",
+      "pricingFactor": "1",
+      "pricingConditionType": "Per unit",
+      "complexPricing": false,
+      "orderableConfig": true,
+      "orderPrepStatus": "Single DQ",
+      "DQcounter": "1",
+      "DQtimeStamp": "2024-01-09T09:34:51.188208",
+      "wbsL0": {
+        "aa-Id": "5558",
+        "contractStartDate": "2022-07-01",
+        "soldToParty": "1000054562",
+        "soldToPartyName": "ICE COMMUNICATION NORGE AS",
+        "soldToPartyCountry": "Norway",
+        "RBCBusinessController": "stefan.hemmerle",
+        "RBCBusinessControllerAddress": "stefan.hemmerle@nokia.com"
+      },
+      "wbsL1": {
+        "Opportunity ID": "22.NO.303971",
+        "salesMode": "CSM",
+        "leadBG": "MN",
+        "customerContractNumber": "00045465.0",
+        "contractDescription": "ICE COMMUNICATION NORGE AS-Frame / Master-Supply Agreement",
+        "nokiaLegalEntity": {
+          "primaryName": "NOKIA SOLUTIONS AND NETWORKS OY",
+          "primary": "FI85"
+        },
+        "startDate": "2022-07-01",
+        "endDate": "2025-06-30",
+        "subContractCaseId": "22.NO.303971.CC.01",
+        "ReportedCustomerID": "1000054562",
+        "EndCustomerInformation": "ICE COMMUNICATION NORGE AS",
+        "EndCustomerId": "1000054562"
+      },
+      "cfeT1": [
+        {
+          "cpqID": "06677727-b40a-46be-b3a2-f147fef81096",
+          "cfeExternalId": "475266B",
+          "name": "ABIO AirScale Capacity",
+          "cfeType": "TYPE 1",
+		  "instanceId": "475266B.03",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "A",
+          "pricePeriod": {
+			"name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+		  },
+          "CLP": "7736.23",
+          "CP": "0.0",
+          "qty": "1",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+		  "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "475266B-PC00006831",
+              "profitCenter": "PC00006831",
+              "eqCLP": "7736.23",
+              "eqCP": "0.0",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "0.0",
+                "ssp%": "0"
+              },
+              "si": [
+                {
+                  "code": "475266B",
+                  "description": "ABIO AirScale Capacity",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "7736.23",
+                  "eqCP": "0.0",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-swap-fsmf-2",
+                  "assetID": "",
+                  "assetFileURL": "",
+                  "whatRelatedInformation": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cpqID": "29c70b43-4165-423a-8807-47796620fdff",
+          "cfeExternalId": "473764A",
+          "name": "ASIB AirScale Common",
+          "cfeType": "TYPE 1",
+		  "instanceId": "473764A.03",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "A",
+          "pricePeriod": {
+			"name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+		  },
+          "CLP": "1742.23",
+          "CP": "0.0",
+          "qty": "1",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+          "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "473764A-PC00006831",
+              "profitCenter": "PC00006831",
+              "eqCLP": "1742.23",
+              "eqCP": "0.0",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "0.0",
+                "ssp%": "0"
+              },
+              "si": [
+                {
+                  "code": "473764A",
+                  "description": "ASIB AirScale Common",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "1742.23",
+                  "eqCP": "0.0",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-swap-fsmf-2",
+                  "assetID": "",
+                  "assetFileURL": "",
+                  "whatRelatedInformation": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cpqID": "435fb59b-9aab-477d-a32a-fe5e7c369ff7",
+          "cfeExternalId": "473098A",
+          "name": "AMIA AirScale Subrack",
+          "cfeType": "TYPE 1",
+		  "instanceId": "473098A.03",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "A",
+          "pricePeriod": {
+			"name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+		  },
+          "CLP": "653.34",
+          "CP": "0.0",
+          "qty": "1",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+          "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "473098A-PC00006831",
+              "profitCenter": "PC00006831",
+              "eqCLP": "653.34",
+              "eqCP": "0.0",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "0.0",
+                "ssp%": "0"
+              },
+              "si": [
+                {
+                  "code": "473098A",
+                  "description": "AMIA AirScale Subrack",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "653.34",
+                  "eqCP": "0.0",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-swap-fsmf-2",
+                  "assetID": "",
+                  "assetFileURL": "",
+                  "whatRelatedInformation": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cpqID": "522e48d2-0dd9-4270-b9c8-b5ca7913b3bb",
+          "cfeExternalId": "SR000035.T",
+          "name": "ABIO Baseband Capacity Activation LTU",
+          "cfeType": "TYPE 1",
+		  "instanceId": "SR000035.T.03",
+          "cfeInvoiceable": false,
+          "salesCurrency": "EUR",
+          "incoterm": "DDP",
+          "incotermNamedPlace": null,
+          "taxClassification": "C",
+          "pricePeriod": {
+			"name": "Phase 1",
+			"startDate": "2023-07-01",
+			"endDate": "2024-06-30"
+		  },
+          "CLP": "362.97",
+          "CP": "0.0",
+          "qty": "2",
+          "pricingMetric": "Unit",
+          "pricingFactor": "1",
+          "pricingConditionType": "Per unit",
+          "complexPricing": false,
+          "orderableConfig": true,
+		  "orderPrepStatus": "Single DQ",
+		  "DQcounter": "1",
+		  "DQtimeStamp": "2024-01-09T09:34:51.188208",
+          "pce": [
+            {
+              "id": "SR000035.T-PC00006834",
+              "profitCenter": "PC00006834",
+              "eqCLP": "362.97",
+              "eqCP": "0.0",
+              "wbsL3": {
+                "pobId": "pob-4566",
+                "pobName": "Customer configuration POB",
+                "pobType": "Standard",
+                "aa-Id": "5558",
+                "RARFulfilmentType": "Customer Acceptance",
+                "RARCommimentType": "Committed By PO",
+                "ssp": "0.0",
+                "ssp%": "0"
+              },
+              "si": [
+                {
+                  "code": "SR000035.T",
+                  "description": "ABIO Baseband Capacity Activation LTU",
+                  "qty": "1.0",
+                  "kittingAttribute": "",
+                  "eqCLP": "362.97",
+                  "eqCP": "0.0",
+                  "pciRelatedInformation": "022206A",
+                  "confRelatedInformation": "CPQ-swap-fsmf-2",
+                  "assetID": "",
+                  "assetFileURL": "",
+                  "whatRelatedInformation": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "pce": null
+    }
+  ]
+}
